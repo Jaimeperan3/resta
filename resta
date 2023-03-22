@@ -1,0 +1,12 @@
+
+
+n1 = int(input("Favor ingresar el primer numero: "))
+n2 = int(input("Favor ingresar segundo numero: "))
+
+if (n1>= n2):
+
+    print( "\nEl resultado de la resta es:" +str( n1 - n2))
+
+else:
+
+    print( "\nEl resultado de la resta es:" +str( n2 - n1))
